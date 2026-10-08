@@ -1,0 +1,1863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Pattern Search | DSA Intelligence Engine</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background-grid"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="brand">
+
+            <div class="brand-icon">
+                &lt;/&gt;
+            </div>
+
+            <div class="brand-text">
+                <h2>Smart<span>Pattern</span></h2>
+                <p>DSA INTELLIGENCE ENGINE</p>
+            </div>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="#home" class="active">
+                Home
+            </a>
+
+            <a href="#algorithms">
+                Algorithms
+            </a>
+
+            <a href="#results">
+                Results
+            </a>
+
+            <a href="#how-it-works">
+                How It Works
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+        </nav>
+
+
+        <div class="system-status">
+
+            <span class="status-dot"></span>
+
+            <span>SYSTEM ONLINE</span>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+
+            <div class="hero-badge">
+
+                <span>✦</span>
+
+                MULTI-ALGORITHM DSA SEARCH
+
+            </div>
+
+
+            <h1>
+
+                Search Smarter.<br>
+
+                <span>Understand Every Connection.</span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                A DSA-powered intelligent search engine that combines
+                exact pattern matching, fuzzy search, binary search
+                trees and document similarity into one system.
+
+            </p>
+
+
+            <!-- SEARCH -->
+
+            <div class="search-wrapper">
+
+                <div class="search-box">
+
+                    <div class="search-icon">
+                        ⌕
+                    </div>
+
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search any DSA topic... e.g. tree"
+                        autocomplete="off"
+                    >
+
+
+                    <button
+                        id="searchButton"
+                        type="button"
+                    >
+
+                        <span>
+                            Search
+                        </span>
+
+                        <b>
+                            →
+                        </b>
+
+                    </button>
+
+                </div>
+
+
+                <div class="search-suggestions">
+
+                    <span>TRY SEARCHING:</span>
+
+
+                    <button
+                        type="button"
+                        data-query="tree"
+                    >
+                        tree
+                    </button>
+
+
+                    <button
+                        type="button"
+                        data-query="graph"
+                    >
+                        graph
+                    </button>
+
+
+                    <button
+                        type="button"
+                        data-query="sorting"
+                    >
+                        sorting
+                    </button>
+
+
+                    <button
+                        type="button"
+                        data-query="binary tree"
+                    >
+                        binary tree
+                    </button>
+
+
+                    <button
+                        type="button"
+                        data-query="avl tree"
+                    >
+                        avl tree
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO STATS -->
+
+            <div class="hero-stats">
+
+                <div class="hero-stat">
+
+                    <strong>
+                        04
+                    </strong>
+
+                    <span>
+                        CORE ALGORITHMS
+                    </span>
+
+                </div>
+
+
+                <div class="hero-stat">
+
+                    <strong>
+                        KMP
+                    </strong>
+
+                    <span>
+                        EXACT MATCHING
+                    </span>
+
+                </div>
+
+
+                <div class="hero-stat">
+
+                    <strong>
+                        DP
+                    </strong>
+
+                    <span>
+                        FUZZY SEARCH
+                    </span>
+
+                </div>
+
+
+                <div class="hero-stat">
+
+                    <strong>
+                        BST
+                    </strong>
+
+                    <span>
+                        FAST LOOKUP
+                    </span>
+
+                </div>
+
+
+                <div class="hero-stat">
+
+                    <strong>
+                        TF-IDF
+                    </strong>
+
+                    <span>
+                        SIMILARITY
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ALGORITHMS ================= -->
+
+        <section
+            class="algorithms-section"
+            id="algorithms"
+        >
+
+            <div class="section-heading">
+
+                <div class="section-index">
+                    01
+                </div>
+
+                <div>
+
+                    <p>
+                        CORE ENGINE
+                    </p>
+
+                    <h2>
+                        Algorithms Behind the Search
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="algorithm-grid">
+
+
+                <!-- KMP -->
+
+                <article class="algorithm-card">
+
+                    <div class="algorithm-top">
+
+                        <div class="algorithm-icon">
+                            KMP
+                        </div>
+
+                        <span class="algorithm-tag">
+                            O(n + m)
+                        </span>
+
+                    </div>
+
+
+                    <span class="algorithm-label">
+                        EXACT PATTERN SEARCH
+                    </span>
+
+
+                    <h3>
+                        Knuth–Morris–Pratt
+                    </h3>
+
+
+                    <p>
+                        Searches for an exact topic using the
+                        LPS array to avoid unnecessary character
+                        comparisons.
+                    </p>
+
+
+                    <div class="algorithm-bottom">
+
+                        <span>
+                            Pattern Matching
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- EDIT DISTANCE -->
+
+                <article class="algorithm-card">
+
+                    <div class="algorithm-top">
+
+                        <div class="algorithm-icon">
+                            DP
+                        </div>
+
+                        <span class="algorithm-tag">
+                            O(n × m)
+                        </span>
+
+                    </div>
+
+
+                    <span class="algorithm-label">
+                        FUZZY MATCHING
+                    </span>
+
+
+                    <h3>
+                        Edit Distance
+                    </h3>
+
+
+                    <p>
+                        Finds the closest topic by calculating
+                        insertions, deletions and substitutions
+                        using Dynamic Programming.
+                    </p>
+
+
+                    <div class="algorithm-bottom">
+
+                        <span>
+                            Typo Correction
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- BST -->
+
+                <article class="algorithm-card">
+
+                    <div class="algorithm-top">
+
+                        <div class="algorithm-icon">
+                            BST
+                        </div>
+
+                        <span class="algorithm-tag">
+                            O(log n)*
+                        </span>
+
+                    </div>
+
+
+                    <span class="algorithm-label">
+                        TOPIC LOCATOR
+                    </span>
+
+
+                    <h3>
+                        Binary Search Tree
+                    </h3>
+
+
+                    <p>
+                        Organizes topics for structured searching
+                        and retrieves the associated file and index.
+                    </p>
+
+
+                    <div class="algorithm-bottom">
+
+                        <span>
+                            Indexed Lookup
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- TF-IDF -->
+
+                <article class="algorithm-card">
+
+                    <div class="algorithm-top">
+
+                        <div class="algorithm-icon">
+                            TF
+                        </div>
+
+                        <span class="algorithm-tag">
+                            VECTOR
+                        </span>
+
+                    </div>
+
+
+                    <span class="algorithm-label">
+                        DOCUMENT ANALYSIS
+                    </span>
+
+
+                    <h3>
+                        TF-IDF + Cosine
+                    </h3>
+
+
+                    <p>
+                        Converts text into weighted vectors and
+                        calculates similarity between documents.
+                    </p>
+
+
+                    <div class="algorithm-bottom">
+
+                        <span>
+                            Similarity Engine
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= RESULTS ================= -->
+
+        <section
+            class="results-section"
+            id="results"
+        >
+
+            <div class="section-heading">
+
+                <div class="section-index">
+                    02
+                </div>
+
+                <div>
+
+                    <p>
+                        LIVE ANALYSIS
+                    </p>
+
+                    <h2>
+                        Search Results
+                    </h2>
+
+                </div>
+
+
+                <div class="query-indicator">
+
+                    QUERY
+
+                    <strong id="currentQuery">
+                        —
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- LOADING -->
+
+            <div
+                class="loading hidden"
+                id="loading"
+            >
+
+                <div class="loader"></div>
+
+                <strong>
+                    Running DSA algorithms...
+                </strong>
+
+                <span>
+                    KMP → DP → BST → TF-IDF
+                </span>
+
+            </div>
+
+
+            <!-- EMPTY -->
+
+            <div
+                class="empty-state"
+                id="emptyState"
+            >
+
+                <div class="empty-icon">
+                    ⌕
+                </div>
+
+                <h3>
+                    Ready to Analyze
+                </h3>
+
+                <p>
+                    Enter a DSA topic above and let the
+                    search engine analyze it using multiple
+                    algorithms.
+                </p>
+
+            </div>
+
+
+            <!-- RESULTS -->
+
+            <div
+                class="results-dashboard hidden"
+                id="resultsDashboard"
+            >
+
+
+                <!-- KMP RESULT -->
+
+                <article class="result-card">
+
+                    <div class="result-header">
+
+                        <div class="result-title">
+
+                            <div class="result-icon">
+                                KMP
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    EXACT SEARCH
+                                </span>
+
+                                <h3>
+                                    KMP Pattern Matching
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <span
+                            class="result-badge"
+                            id="kmpBadge"
+                        >
+                            —
+                        </span>
+
+                    </div>
+
+
+                    <div
+                        class="result-main"
+                        id="kmpMessage"
+                    >
+                        —
+                    </div>
+
+
+                    <div class="result-detail">
+
+                        <span>
+                            Algorithm
+                        </span>
+
+                        <strong>
+                            Knuth–Morris–Pratt
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- FUZZY RESULT -->
+
+                <article class="result-card">
+
+                    <div class="result-header">
+
+                        <div class="result-title">
+
+                            <div class="result-icon">
+                                DP
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    FUZZY MATCHING
+                                </span>
+
+                                <h3>
+                                    Edit Distance
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <span class="result-mini-tag">
+                            DYNAMIC PROGRAMMING
+                        </span>
+
+                    </div>
+
+
+                    <div class="fuzzy-result-box">
+
+                        <div>
+
+                            <small>
+                                CLOSEST TOPIC
+                            </small>
+
+                            <strong id="fuzzyTopic">
+                                —
+                            </strong>
+
+                        </div>
+
+
+                        <div class="distance-box">
+
+                            <small>
+                                EDIT DISTANCE
+                            </small>
+
+                            <strong id="fuzzyDistance">
+                                —
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="result-explanation">
+
+                        The system compares the entered query
+                        with available DSA topics and selects
+                        the closest match.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- BST RESULT -->
+
+                <article class="result-card">
+
+                    <div class="result-header">
+
+                        <div class="result-title">
+
+                            <div class="result-icon">
+                                BST
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    INDEX LOOKUP
+                                </span>
+
+                                <h3>
+                                    Binary Search Tree
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                        <span class="result-mini-tag">
+                            O(log n)*
+                        </span>
+
+                    </div>
+
+
+                    <div class="bst-result-box">
+
+                        <div class="bst-info-item">
+
+                            <small>
+                                TOPIC
+                            </small>
+
+                            <strong id="bstTopic">
+                                —
+                            </strong>
+
+                        </div>
+
+
+                        <div class="bst-info-item">
+
+                            <small>
+                                FILE
+                            </small>
+
+                            <strong id="bstFile">
+                                —
+                            </strong>
+
+                        </div>
+
+
+                        <div class="bst-info-item">
+
+                            <small>
+                                INDEX
+                            </small>
+
+                            <strong id="bstIndex">
+                                —
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bst-path">
+
+                        <span>
+                            SEARCH PATH
+                        </span>
+
+                        <div id="bstPath">
+                            —
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- RELATED TOPICS -->
+
+                <article class="result-card">
+
+                    <div class="result-header">
+
+                        <div class="result-title">
+
+                            <div class="result-icon">
+                                ↗
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    KNOWLEDGE GRAPH
+                                </span>
+
+                                <h3>
+                                    Related Topics
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="related-topics"
+                        id="relatedTopics"
+                    >
+                    </div>
+
+
+                    <p class="result-explanation">
+
+                        Related concepts are suggested from
+                        the topic relationships stored in
+                        the DSA knowledge base.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- TF-IDF -->
+
+                <article class="result-card similarity-card">
+
+                    <div class="result-header">
+
+                        <div class="result-title">
+
+                            <div class="result-icon">
+                                TF
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    DOCUMENT ANALYSIS
+                                </span>
+
+                                <h3>
+                                    TF-IDF + Cosine Similarity
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <span class="result-mini-tag">
+                            COSINE
+                        </span>
+
+                    </div>
+
+
+                    <div
+                        class="similarity-results"
+                        id="similarityResults"
+                    >
+                    </div>
+
+
+                    <div class="similarity-footer">
+
+                        <span>
+                            Higher score = more similar document
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- DOCUMENT LOCATION -->
+
+                <article class="result-card document-card">
+
+                    <div class="result-header">
+
+                        <div class="result-title">
+
+                            <div class="result-icon">
+                                PDF
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    SOURCE
+                                </span>
+
+                                <h3>
+                                    Matched Knowledge Base
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="documents-list"
+                        id="documentsList"
+                    >
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section
+            class="how-section"
+            id="how-it-works"
+        >
+
+            <div class="section-heading">
+
+                <div class="section-index">
+                    03
+                </div>
+
+                <div>
+
+                    <p>
+                        UNDER THE HOOD
+                    </p>
+
+                    <h2>
+                        How the Search Works
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="workflow">
+
+
+                <div class="workflow-step">
+
+                    <div class="workflow-number">
+                        01
+                    </div>
+
+                    <div>
+
+                        <span>
+                            INPUT
+                        </span>
+
+                        <h3>
+                            Search Query
+                        </h3>
+
+                        <p>
+                            User enters a DSA topic into
+                            the intelligent search box.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="workflow-line"></div>
+
+
+                <div class="workflow-step">
+
+                    <div class="workflow-number">
+                        02
+                    </div>
+
+                    <div>
+
+                        <span>
+                            EXACT MATCH
+                        </span>
+
+                        <h3>
+                            KMP
+                        </h3>
+
+                        <p>
+                            Checks whether the exact pattern
+                            exists using LPS-based matching.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="workflow-line"></div>
+
+
+                <div class="workflow-step">
+
+                    <div class="workflow-number">
+                        03
+                    </div>
+
+                    <div>
+
+                        <span>
+                            FUZZY MATCH
+                        </span>
+
+                        <h3>
+                            Edit Distance + DP
+                        </h3>
+
+                        <p>
+                            Finds the nearest topic when the
+                            user makes a spelling mistake.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="workflow-line"></div>
+
+
+                <div class="workflow-step">
+
+                    <div class="workflow-number">
+                        04
+                    </div>
+
+                    <div>
+
+                        <span>
+                            INDEX
+                        </span>
+
+                        <h3>
+                            Binary Search Tree
+                        </h3>
+
+                        <p>
+                            Locates the topic and retrieves
+                            the file and index information.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="workflow-line"></div>
+
+
+                <div class="workflow-step">
+
+                    <div class="workflow-number">
+                        05
+                    </div>
+
+                    <div>
+
+                        <span>
+                            SIMILARITY
+                        </span>
+
+                        <h3>
+                            TF-IDF + Cosine
+                        </h3>
+
+                        <p>
+                            Compares document vectors and
+                            ranks similar DSA content.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ALGORITHM EXPLANATIONS ================= -->
+
+        <section class="explanation-section">
+
+            <div class="section-heading">
+
+                <div class="section-index">
+                    04
+                </div>
+
+                <div>
+
+                    <p>
+                        PROJECT EXPLANATION
+                    </p>
+
+                    <h2>
+                        Why These Algorithms?
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="explanation-grid">
+
+
+                <article class="explanation-card">
+
+                    <div class="explanation-head">
+
+                        <div class="explanation-icon">
+                            KMP
+                        </div>
+
+                        <span>
+                            01
+                        </span>
+
+                    </div>
+
+                    <span class="explanation-label">
+                        PATTERN SEARCHING
+                    </span>
+
+                    <h3>
+                        Knuth–Morris–Pratt
+                    </h3>
+
+                    <p>
+                        KMP performs exact pattern matching
+                        efficiently by using an LPS array.
+                        When a mismatch occurs, the algorithm
+                        avoids repeating comparisons that are
+                        already known.
+                    </p>
+
+                    <div class="why-box">
+
+                        <strong>
+                            Why we use it
+                        </strong>
+
+                        <span>
+                            Fast exact topic searching.
+                        </span>
+
+                    </div>
+
+                    <div class="complexity-row">
+
+                        <div>
+                            <small>
+                                TIME
+                            </small>
+
+                            <strong>
+                                O(n + m)
+                            </strong>
+                        </div>
+
+                        <div>
+                            <small>
+                                SPACE
+                            </small>
+
+                            <strong>
+                                O(m)
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="explanation-card">
+
+                    <div class="explanation-head">
+
+                        <div class="explanation-icon">
+                            DP
+                        </div>
+
+                        <span>
+                            02
+                        </span>
+
+                    </div>
+
+                    <span class="explanation-label">
+                        FUZZY MATCHING
+                    </span>
+
+                    <h3>
+                        Edit Distance
+                    </h3>
+
+                    <p>
+                        Edit Distance calculates the minimum
+                        number of insertions, deletions and
+                        substitutions required to convert one
+                        string into another.
+                    </p>
+
+                    <div class="why-box">
+
+                        <strong>
+                            Why we use it
+                        </strong>
+
+                        <span>
+                            Handles spelling mistakes and
+                            approximate topic searches.
+                        </span>
+
+                    </div>
+
+                    <div class="complexity-row">
+
+                        <div>
+                            <small>
+                                TIME
+                            </small>
+
+                            <strong>
+                                O(n × m)
+                            </strong>
+                        </div>
+
+                        <div>
+                            <small>
+                                SPACE
+                            </small>
+
+                            <strong>
+                                O(n × m)
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="explanation-card">
+
+                    <div class="explanation-head">
+
+                        <div class="explanation-icon">
+                            BST
+                        </div>
+
+                        <span>
+                            03
+                        </span>
+
+                    </div>
+
+                    <span class="explanation-label">
+                        STRUCTURED LOOKUP
+                    </span>
+
+                    <h3>
+                        Binary Search Tree
+                    </h3>
+
+                    <p>
+                        Topics are organized in a hierarchical
+                        structure. Comparisons determine whether
+                        the search continues to the left or right
+                        subtree.
+                    </p>
+
+                    <div class="why-box">
+
+                        <strong>
+                            Why we use it
+                        </strong>
+
+                        <span>
+                            Efficient topic lookup and source
+                            location.
+                        </span>
+
+                    </div>
+
+                    <div class="complexity-row">
+
+                        <div>
+                            <small>
+                                AVERAGE
+                            </small>
+
+                            <strong>
+                                O(log n)
+                            </strong>
+                        </div>
+
+                        <div>
+                            <small>
+                                WORST
+                            </small>
+
+                            <strong>
+                                O(n)
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="explanation-card">
+
+                    <div class="explanation-head">
+
+                        <div class="explanation-icon">
+                            TF
+                        </div>
+
+                        <span>
+                            04
+                        </span>
+
+                    </div>
+
+                    <span class="explanation-label">
+                        DOCUMENT ANALYSIS
+                    </span>
+
+                    <h3>
+                        TF-IDF + Cosine Similarity
+                    </h3>
+
+                    <p>
+                        TF-IDF assigns weights to terms according
+                        to their importance. Cosine Similarity
+                        compares document vectors to determine
+                        how closely related they are.
+                    </p>
+
+                    <div class="why-box">
+
+                        <strong>
+                            Why we use it
+                        </strong>
+
+                        <span>
+                            Finds related DSA documents and topics.
+                        </span>
+
+                    </div>
+
+                    <div class="complexity-row">
+
+                        <div>
+                            <small>
+                                OUTPUT
+                            </small>
+
+                            <strong>
+                                Similarity %
+                            </strong>
+                        </div>
+
+                        <div>
+                            <small>
+                                METHOD
+                            </small>
+
+                            <strong>
+                                VECTORS
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ARCHITECTURE ================= -->
+
+        <section class="architecture-section">
+
+            <div class="section-heading">
+
+                <div class="section-index">
+                    05
+                </div>
+
+                <div>
+
+                    <p>
+                        SYSTEM DESIGN
+                    </p>
+
+                    <h2>
+                        Project Architecture
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="architecture">
+
+
+                <div class="architecture-node">
+
+                    <div class="architecture-icon">
+                        ⌕
+                    </div>
+
+                    <span>
+                        INPUT
+                    </span>
+
+                    <strong>
+                        User Query
+                    </strong>
+
+                </div>
+
+
+                <div class="architecture-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-node">
+
+                    <div class="architecture-icon">
+                        JS
+                    </div>
+
+                    <span>
+                        FRONTEND
+                    </span>
+
+                    <strong>
+                        HTML + CSS + JS
+                    </strong>
+
+                </div>
+
+
+                <div class="architecture-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-core">
+
+                    <span>
+                        JAVA DSA ENGINE
+                    </span>
+
+                    <div>
+
+                        <b>KMP</b>
+                        <b>DP</b>
+                        <b>BST</b>
+                        <b>TF-IDF</b>
+
+                    </div>
+
+                </div>
+
+
+                <div class="architecture-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-node">
+
+                    <div class="architecture-icon">
+                        ✓
+                    </div>
+
+                    <span>
+                        OUTPUT
+                    </span>
+
+                    <strong>
+                        Intelligent Results
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= COMPLEXITY ================= -->
+
+        <section class="complexity-section">
+
+            <div class="section-heading">
+
+                <div class="section-index">
+                    06
+                </div>
+
+                <div>
+
+                    <p>
+                        PERFORMANCE
+                    </p>
+
+                    <h2>
+                        Algorithm Complexity
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="complexity-table">
+
+                <div class="table-header">
+
+                    <span>
+                        ALGORITHM
+                    </span>
+
+                    <span>
+                        PURPOSE
+                    </span>
+
+                    <span>
+                        TIME
+                    </span>
+
+                    <span>
+                        SPACE
+                    </span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <strong>
+                        KMP
+                    </strong>
+
+                    <span>
+                        Exact Pattern Search
+                    </span>
+
+                    <span>
+                        O(n + m)
+                    </span>
+
+                    <span>
+                        O(m)
+                    </span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <strong>
+                        Edit Distance
+                    </strong>
+
+                    <span>
+                        Fuzzy Matching
+                    </span>
+
+                    <span>
+                        O(n × m)
+                    </span>
+
+                    <span>
+                        O(n × m)
+                    </span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <strong>
+                        BST
+                    </strong>
+
+                    <span>
+                        Topic Lookup
+                    </span>
+
+                    <span>
+                        O(log n)*
+                    </span>
+
+                    <span>
+                        O(n)
+                    </span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <strong>
+                        TF-IDF
+                    </strong>
+
+                    <span>
+                        Document Similarity
+                    </span>
+
+                    <span>
+                        Vector Based
+                    </span>
+
+                    <span>
+                        O(V)
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <p class="table-note">
+                *BST average-case lookup. Worst-case lookup
+                can become O(n) for an unbalanced tree.
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section
+            class="about-section"
+            id="about"
+        >
+
+            <div class="about-main">
+
+                <span class="section-index">
+                    07
+                </span>
+
+                <h2>
+                    One Search.<br>
+                    <span>Multiple Algorithms.</span>
+                </h2>
+
+                <p>
+                    Smart Pattern Search is a modular DSA-based
+                    text analysis system that combines pattern
+                    searching, fuzzy matching, topic indexing and
+                    document similarity into a single platform.
+                </p>
+
+            </div>
+
+
+            <div class="about-highlights">
+
+                <div>
+
+                    <strong>
+                        KMP
+                    </strong>
+
+                    <span>
+                        Exact Matching
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        DP
+                    </strong>
+
+                    <span>
+                        Approximate Matching
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        BST
+                    </strong>
+
+                    <span>
+                        Topic Indexing
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        TF-IDF
+                    </strong>
+
+                    <span>
+                        Document Similarity
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div>
+
+            <strong>
+                Smart Pattern Search
+            </strong>
+
+            <span>
+                DSA Intelligence Engine
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                Java
+            </span>
+
+            <span>•</span>
+
+            <span>
+                Data Structures
+            </span>
+
+            <span>•</span>
+
+            <span>
+                Algorithms
+            </span>
+
+            <span>•</span>
+
+            <span>
+                JavaScript
+            </span>
+
+        </div>
+
+    </footer>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
